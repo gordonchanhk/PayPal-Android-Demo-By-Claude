@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.paypal.simpleapp-mergeDebugResources-62:/values-v24/values-v24.xml",
+            "map": [
+                {
+                    "source": "/Users/gochan/.gradle/caches/8.9/transforms/0f51b8dc6ecd9977408c9209d63e9174/transformed/appcompat-1.3.1/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                }
+            ]
+        }
+    ]
+}

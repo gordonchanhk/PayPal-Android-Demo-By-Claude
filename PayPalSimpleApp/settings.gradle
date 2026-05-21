@@ -1,0 +1,59 @@
+pluginManagement {
+    repositories {
+        google {
+            content {
+                includeGroupByRegex("com\\.android.*")
+                includeGroupByRegex("com\\.google.*")
+                includeGroupByRegex("androidx.*")
+            }
+        }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.8.0'
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    versionCatalogs {
+        libs {
+            from(files("../PPMobileSDKv1.8.0/paypal-android/gradle/libs.versions.toml"))
+        }
+    }
+    repositories {
+        google()
+        mavenCentral()
+
+        maven {
+            url 'https://oss.sonatype.org/content/repositories/snapshots/'
+        }
+
+        maven {
+            url "https://cardinalcommerceprod.jfrog.io/artifactory/android"
+            credentials {
+                username cardinalUsername
+                password cardinalPassword
+            }
+        }
+    }
+}
+
+rootProject.name = "PayPalSimpleApp"
+
+include ':app'
+
+// Include SDK modules with custom projectDir paths
+include ':CorePayments'
+project(':CorePayments').projectDir = new File("../PPMobileSDKv1.8.0/paypal-android/CorePayments")
+
+include ':PayPalWebPayments'
+project(':PayPalWebPayments').projectDir = new File("../PPMobileSDKv1.8.0/paypal-android/PayPalWebPayments")
+
+include ':FraudProtection'
+project(':FraudProtection').projectDir = new File("../PPMobileSDKv1.8.0/paypal-android/FraudProtection")
+
+include ':PaymentButtons'
+project(':PaymentButtons').projectDir = new File("../PPMobileSDKv1.8.0/paypal-android/PaymentButtons")

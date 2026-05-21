@@ -1,0 +1,28 @@
+buildscript {
+    ext.modules = [
+            "sdkVersionName"      : "1.8.0",
+            "androidMinSdkVersion": 21,
+            "androidTargetVersion": 35,
+            "androidCompileSdk"   : 35,
+            "sourceCompatibility" : JavaVersion.VERSION_1_8,
+            "targetCompatibility" : JavaVersion.VERSION_1_8,
+            "kotlinJvmTarget"     : JavaVersion.VERSION_1_8.toString(),
+            "kotlinToolchainLanguageVersion": JavaLanguageVersion.of(17)
+    ]
+}
+
+plugins {
+    alias libs.plugins.android.application apply false
+    alias libs.plugins.android.library apply false
+    alias libs.plugins.kotlinAndroid apply false
+    alias libs.plugins.kotlinParcelize apply false
+    alias libs.plugins.kotlinKapt apply false
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+subprojects {
+    group = "com.paypal.android"
+}

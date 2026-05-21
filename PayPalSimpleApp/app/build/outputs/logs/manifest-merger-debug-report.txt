@@ -1,0 +1,459 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:2:1-30:12
+MERGED from [:PayPalWebPayments] /Users/gochan/Documents/GitRepo/Android-app/PPMobileSDKv1.8.0/paypal-android/PayPalWebPayments/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:FraudProtection] /Users/gochan/Documents/GitRepo/Android-app/PPMobileSDKv1.8.0/paypal-android/FraudProtection/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-10:12
+MERGED from [:PaymentButtons] /Users/gochan/Documents/GitRepo/Android-app/PPMobileSDKv1.8.0/paypal-android/PaymentButtons/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [:CorePayments] /Users/gochan/Documents/GitRepo/Android-app/PPMobileSDKv1.8.0/paypal-android/CorePayments/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-10:12
+MERGED from [androidx.compose.material3:material3:1.1.0] /Users/gochan/.gradle/caches/8.9/transforms/2d49ef8d0832d08317a1eb17bcd8d39b/transformed/material3-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.braintreepayments.api:browser-switch:2.3.1] /Users/gochan/.gradle/caches/8.9/transforms/11e3bdb7dc4f36815a235314d108540c/transformed/browser-switch-2.3.1/AndroidManifest.xml:2:1-22:12
+MERGED from [com.google.android.material:material:1.4.0] /Users/gochan/.gradle/caches/8.9/transforms/ac4b385775bf8ffb12d9832b9482eea6/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/gochan/.gradle/caches/8.9/transforms/b93159fdb479adef72f2b62b0f74fb1e/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.preference:preference-ktx:1.1.1] /Users/gochan/.gradle/caches/8.9/transforms/792ea3fbe75272daa6517e4ca3b40067/transformed/preference-ktx-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference:1.1.1] /Users/gochan/.gradle/caches/8.9/transforms/7301efddbb69f9262a886a311f5f9187/transformed/preference-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/gochan/.gradle/caches/8.9/transforms/0f51b8dc6ecd9977408c9209d63e9174/transformed/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/f6cb6c0e617bebf77fa90a061e35db3c/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/gochan/.gradle/caches/8.9/transforms/5050b46cdcfeef17f5cf7a07e5c4fa21/transformed/fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/gochan/.gradle/caches/8.9/transforms/666d7e4745c6f464634866a758684721/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.7.2] /Users/gochan/.gradle/caches/8.9/transforms/ba2a5d0461091adfc7b838be7aad78b6/transformed/activity-1.7.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.7.2] /Users/gochan/.gradle/caches/8.9/transforms/fdbfbd9df03055de918863f6ac0a6d06/transformed/activity-ktx-1.7.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/4bee71ff629b8533e16cd0ee2eb982f9/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/7160149f79757421da4b4bf8e8b84ae5/transformed/browser-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/4b3f8f0d6b1fe06824b491208ddc06ca/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/81a04f9e5ded9c331469c2631f895bca/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/7831f652d25127a87452de09255bd7cd/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-ripple:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/afb75bda3b674e8f33774fbeb6e4f0ec/transformed/material-ripple-1.4.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-icons-core:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/01c454be489e59d1de9a85d4c239ee7c/transformed/material-icons-core-1.4.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/35d13a662ab2a7454d1cea4d9f3880e6/transformed/material-1.4.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.animation:animation-core:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/fcb884c83b0a5449b95129dc4dac41a4/transformed/animation-core-1.4.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.animation:animation:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/0b1eda72837060927affeb3d6e8b9c58/transformed/animation-1.4.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.foundation:foundation-layout:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/45bd11090e4dd8b17e232db46e69c350/transformed/foundation-layout-1.4.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.foundation:foundation:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/295bf4ac20604542a3926f190bc5371d/transformed/foundation-1.4.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-unit:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/6dd34fcd913a241765c2c62a67e73c04/transformed/ui-unit-1.4.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-geometry:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/5a5ed834887264bc3a9ad78de728d3d7/transformed/ui-geometry-1.4.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-data:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/8e4e787a74b453c365c93ff879ace4af/transformed/ui-tooling-data-1.4.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-util:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/5e3b74423b1b66afcf10910350cd4fbb/transformed/ui-util-1.4.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/a542163cb9e30db0b4dde89913e8940d/transformed/ui-graphics-1.4.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-text:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/76797fb8e656777489f3efd61cb32611/transformed/ui-text-1.4.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/65de48f6411e6afc6b752816e35912e9/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/bb2fc9870b7fafafa8a1d639f2a6632d/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/cbd0213618e2938cb6419dfa0bc01f9b/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/1482c37934e6dc45902ead46b3cc3173/transformed/lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/3babc4b5fe5d1daeadc1f240e1a37ec5/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/33195a986f18bdf4278f7bd9339f21b6/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/d1bbb4e9ccdd5542240af38044310dc9/transformed/lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/gochan/.gradle/caches/8.9/transforms/6b424aea71632035d57252217d69677e/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/gochan/.gradle/caches/8.9/transforms/4c779b1b1158b7dad4be190627614f48/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/gochan/.gradle/caches/8.9/transforms/5d9357d13ed446948506ebafa99027e4/transformed/appcompat-resources-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/23253992b3ebf723c6932bdcbe7449ee/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/gochan/.gradle/caches/8.9/transforms/f8a3e4b33d9ba3c13e6afd7e2bd48ae1/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/gochan/.gradle/caches/8.9/transforms/74dc60a5aa0c548ce6e1538f4562d331/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/gochan/.gradle/caches/8.9/transforms/9eb95532a89212ff5509611400986af2/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/gochan/.gradle/caches/8.9/transforms/f23adfb7c8f6bf04f3cc215a0975e02f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/124979da24cfe69971b56bd6e0684072/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/d9cedb90864142c022a59f25ab781217/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/gochan/.gradle/caches/8.9/transforms/f3365d23e15a22accb1221d361376280/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/d6c72d00a1642c68d983fa250456f2b4/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/cf6e0312ef707550ac3852d78146b5c6/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/79d0389923280b0561ca15fd5d4bad40/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/gochan/.gradle/caches/8.9/transforms/7d38f1bd204a8e3412e7f904d4bb7ded/transformed/core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/15a0c6e2d4d5f90c9f8dbd30ec44722d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/a4b85f685755ffa221bc796c081e7a59/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.9.0] /Users/gochan/.gradle/caches/8.9/transforms/8ac382218ddce136bd9ddcab071aba59/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/c99d8c48335077aca98ce0790781065d/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/92bc856b63de21ddeba8cf493e3f2576/transformed/lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/7edf9e78f64bce2a29932ce9e0e4197a/transformed/lifecycle-viewmodel-compose-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/47a94f35395a0acbfa123aebf08fea25/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/1edbe4b15b3782a42f9d55c688f57f70/transformed/lifecycle-runtime-compose-2.6.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/498a95a936372d49cae7b1be6555dec7/transformed/ui-1.4.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/6c21696be012730459b834c02bfa35e3/transformed/ui-tooling-preview-1.4.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/528c92f5cf92315d0b87dbd24cc27e17/transformed/ui-tooling-1.4.3/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity-compose:1.7.2] /Users/gochan/.gradle/caches/8.9/transforms/6f5669549777a57960675ef16e46b880/transformed/activity-compose-1.7.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/bfc30fcedd668a8ff9ac7e6ba5c05400/transformed/runtime-saveable-1.4.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/04e557f09daae8cb43cf096e9cbbc3e4/transformed/runtime-1.4.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/20ff0c8f55e058b6a279b577c48dcc50/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/aade09a0df48ad12da249cf105195212/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/2dd127b086b73b08351685662ebae0c8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/gochan/.gradle/caches/8.9/transforms/c2533b6ee7446263c1d9019350a6f70d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/gochan/.gradle/caches/8.9/transforms/949897da886562c4a6c6db4a8f21561f/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/gochan/.gradle/caches/8.9/transforms/b1fb247cfce38549b282768c4586affa/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/843eb454e8784b4e67fc0708ff267b85/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/98de651bd93cda22ccd7aa9e5666f04e/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/d5578d3c180ebfd54f792249350fae90/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/8148b26ff3cc11b4240ff1281d3554e8/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/0c0191c4c932bc92c8e22338537f909d/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/951085eb2293d3a878dbb203364988eb/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:FraudProtection] /Users/gochan/Documents/GitRepo/Android-app/PPMobileSDKv1.8.0/paypal-android/FraudProtection/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-67
+MERGED from [:FraudProtection] /Users/gochan/Documents/GitRepo/Android-app/PPMobileSDKv1.8.0/paypal-android/FraudProtection/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-67
+MERGED from [:CorePayments] /Users/gochan/Documents/GitRepo/Android-app/PPMobileSDKv1.8.0/paypal-android/CorePayments/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-67
+MERGED from [:CorePayments] /Users/gochan/Documents/GitRepo/Android-app/PPMobileSDKv1.8.0/paypal-android/CorePayments/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:6:5-28:19
+INJECTED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:6:5-28:19
+MERGED from [com.google.android.material:material:1.4.0] /Users/gochan/.gradle/caches/8.9/transforms/ac4b385775bf8ffb12d9832b9482eea6/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /Users/gochan/.gradle/caches/8.9/transforms/ac4b385775bf8ffb12d9832b9482eea6/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/gochan/.gradle/caches/8.9/transforms/b93159fdb479adef72f2b62b0f74fb1e/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/gochan/.gradle/caches/8.9/transforms/b93159fdb479adef72f2b62b0f74fb1e/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/65de48f6411e6afc6b752816e35912e9/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/65de48f6411e6afc6b752816e35912e9/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/bb2fc9870b7fafafa8a1d639f2a6632d/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/bb2fc9870b7fafafa8a1d639f2a6632d/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] /Users/gochan/.gradle/caches/8.9/transforms/8ac382218ddce136bd9ddcab071aba59/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /Users/gochan/.gradle/caches/8.9/transforms/8ac382218ddce136bd9ddcab071aba59/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.compose.ui:ui-tooling:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/528c92f5cf92315d0b87dbd24cc27e17/transformed/ui-tooling-1.4.3/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/528c92f5cf92315d0b87dbd24cc27e17/transformed/ui-tooling-1.4.3/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/2dd127b086b73b08351685662ebae0c8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/2dd127b086b73b08351685662ebae0c8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/gochan/.gradle/caches/8.9/transforms/c2533b6ee7446263c1d9019350a6f70d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/gochan/.gradle/caches/8.9/transforms/c2533b6ee7446263c1d9019350a6f70d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/gochan/.gradle/caches/8.9/transforms/b1fb247cfce38549b282768c4586affa/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/gochan/.gradle/caches/8.9/transforms/b1fb247cfce38549b282768c4586affa/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /Users/gochan/.gradle/caches/8.9/transforms/8ac382218ddce136bd9ddcab071aba59/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:8:9-41
+	android:allowBackup
+		ADDED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:10:9-53
+	android:networkSecurityConfig
+		ADDED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:9:9-69
+activity#com.example.paypal.simpleapp.MainActivity
+ADDED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:13:9-27:20
+	android:launchMode
+		ADDED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:16:13-43
+	android:exported
+		ADDED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:15:13-36
+	android:name
+		ADDED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:14:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:17:13-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:19:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:com.example.paypal.simpleapp
+ADDED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:21:13-26:29
+action#android.intent.action.VIEW
+ADDED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:22:25-66
+data
+ADDED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:23:17-71
+	android:scheme
+		ADDED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:23:23-68
+category#android.intent.category.DEFAULT
+ADDED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:24:17-76
+	android:name
+		ADDED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:24:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:25:17-78
+	android:name
+		ADDED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml:25:27-75
+uses-sdk
+INJECTED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml
+MERGED from [:PayPalWebPayments] /Users/gochan/Documents/GitRepo/Android-app/PPMobileSDKv1.8.0/paypal-android/PayPalWebPayments/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:PayPalWebPayments] /Users/gochan/Documents/GitRepo/Android-app/PPMobileSDKv1.8.0/paypal-android/PayPalWebPayments/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:FraudProtection] /Users/gochan/Documents/GitRepo/Android-app/PPMobileSDKv1.8.0/paypal-android/FraudProtection/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:FraudProtection] /Users/gochan/Documents/GitRepo/Android-app/PPMobileSDKv1.8.0/paypal-android/FraudProtection/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:PaymentButtons] /Users/gochan/Documents/GitRepo/Android-app/PPMobileSDKv1.8.0/paypal-android/PaymentButtons/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:PaymentButtons] /Users/gochan/Documents/GitRepo/Android-app/PPMobileSDKv1.8.0/paypal-android/PaymentButtons/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:CorePayments] /Users/gochan/Documents/GitRepo/Android-app/PPMobileSDKv1.8.0/paypal-android/CorePayments/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:CorePayments] /Users/gochan/Documents/GitRepo/Android-app/PPMobileSDKv1.8.0/paypal-android/CorePayments/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3:1.1.0] /Users/gochan/.gradle/caches/8.9/transforms/2d49ef8d0832d08317a1eb17bcd8d39b/transformed/material3-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3:1.1.0] /Users/gochan/.gradle/caches/8.9/transforms/2d49ef8d0832d08317a1eb17bcd8d39b/transformed/material3-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.braintreepayments.api:browser-switch:2.3.1] /Users/gochan/.gradle/caches/8.9/transforms/11e3bdb7dc4f36815a235314d108540c/transformed/browser-switch-2.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.braintreepayments.api:browser-switch:2.3.1] /Users/gochan/.gradle/caches/8.9/transforms/11e3bdb7dc4f36815a235314d108540c/transformed/browser-switch-2.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.4.0] /Users/gochan/.gradle/caches/8.9/transforms/ac4b385775bf8ffb12d9832b9482eea6/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /Users/gochan/.gradle/caches/8.9/transforms/ac4b385775bf8ffb12d9832b9482eea6/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/gochan/.gradle/caches/8.9/transforms/b93159fdb479adef72f2b62b0f74fb1e/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/gochan/.gradle/caches/8.9/transforms/b93159fdb479adef72f2b62b0f74fb1e/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.preference:preference-ktx:1.1.1] /Users/gochan/.gradle/caches/8.9/transforms/792ea3fbe75272daa6517e4ca3b40067/transformed/preference-ktx-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.1.1] /Users/gochan/.gradle/caches/8.9/transforms/792ea3fbe75272daa6517e4ca3b40067/transformed/preference-ktx-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] /Users/gochan/.gradle/caches/8.9/transforms/7301efddbb69f9262a886a311f5f9187/transformed/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] /Users/gochan/.gradle/caches/8.9/transforms/7301efddbb69f9262a886a311f5f9187/transformed/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/gochan/.gradle/caches/8.9/transforms/0f51b8dc6ecd9977408c9209d63e9174/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/gochan/.gradle/caches/8.9/transforms/0f51b8dc6ecd9977408c9209d63e9174/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/f6cb6c0e617bebf77fa90a061e35db3c/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/f6cb6c0e617bebf77fa90a061e35db3c/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/gochan/.gradle/caches/8.9/transforms/5050b46cdcfeef17f5cf7a07e5c4fa21/transformed/fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/gochan/.gradle/caches/8.9/transforms/5050b46cdcfeef17f5cf7a07e5c4fa21/transformed/fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/gochan/.gradle/caches/8.9/transforms/666d7e4745c6f464634866a758684721/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/gochan/.gradle/caches/8.9/transforms/666d7e4745c6f464634866a758684721/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.7.2] /Users/gochan/.gradle/caches/8.9/transforms/ba2a5d0461091adfc7b838be7aad78b6/transformed/activity-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.7.2] /Users/gochan/.gradle/caches/8.9/transforms/ba2a5d0461091adfc7b838be7aad78b6/transformed/activity-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.7.2] /Users/gochan/.gradle/caches/8.9/transforms/fdbfbd9df03055de918863f6ac0a6d06/transformed/activity-ktx-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.7.2] /Users/gochan/.gradle/caches/8.9/transforms/fdbfbd9df03055de918863f6ac0a6d06/transformed/activity-ktx-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/4bee71ff629b8533e16cd0ee2eb982f9/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/4bee71ff629b8533e16cd0ee2eb982f9/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/7160149f79757421da4b4bf8e8b84ae5/transformed/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/7160149f79757421da4b4bf8e8b84ae5/transformed/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/4b3f8f0d6b1fe06824b491208ddc06ca/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/4b3f8f0d6b1fe06824b491208ddc06ca/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/81a04f9e5ded9c331469c2631f895bca/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/81a04f9e5ded9c331469c2631f895bca/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/7831f652d25127a87452de09255bd7cd/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/7831f652d25127a87452de09255bd7cd/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/afb75bda3b674e8f33774fbeb6e4f0ec/transformed/material-ripple-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/afb75bda3b674e8f33774fbeb6e4f0ec/transformed/material-ripple-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-icons-core:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/01c454be489e59d1de9a85d4c239ee7c/transformed/material-icons-core-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-icons-core:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/01c454be489e59d1de9a85d4c239ee7c/transformed/material-icons-core-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/35d13a662ab2a7454d1cea4d9f3880e6/transformed/material-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/35d13a662ab2a7454d1cea4d9f3880e6/transformed/material-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-core:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/fcb884c83b0a5449b95129dc4dac41a4/transformed/animation-core-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-core:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/fcb884c83b0a5449b95129dc4dac41a4/transformed/animation-core-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/0b1eda72837060927affeb3d6e8b9c58/transformed/animation-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/0b1eda72837060927affeb3d6e8b9c58/transformed/animation-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation-layout:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/45bd11090e4dd8b17e232db46e69c350/transformed/foundation-layout-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation-layout:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/45bd11090e4dd8b17e232db46e69c350/transformed/foundation-layout-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/295bf4ac20604542a3926f190bc5371d/transformed/foundation-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/295bf4ac20604542a3926f190bc5371d/transformed/foundation-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-unit:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/6dd34fcd913a241765c2c62a67e73c04/transformed/ui-unit-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-unit:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/6dd34fcd913a241765c2c62a67e73c04/transformed/ui-unit-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-geometry:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/5a5ed834887264bc3a9ad78de728d3d7/transformed/ui-geometry-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-geometry:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/5a5ed834887264bc3a9ad78de728d3d7/transformed/ui-geometry-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/8e4e787a74b453c365c93ff879ace4af/transformed/ui-tooling-data-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/8e4e787a74b453c365c93ff879ace4af/transformed/ui-tooling-data-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-util:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/5e3b74423b1b66afcf10910350cd4fbb/transformed/ui-util-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-util:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/5e3b74423b1b66afcf10910350cd4fbb/transformed/ui-util-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/a542163cb9e30db0b4dde89913e8940d/transformed/ui-graphics-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/a542163cb9e30db0b4dde89913e8940d/transformed/ui-graphics-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-text:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/76797fb8e656777489f3efd61cb32611/transformed/ui-text-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-text:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/76797fb8e656777489f3efd61cb32611/transformed/ui-text-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/65de48f6411e6afc6b752816e35912e9/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/65de48f6411e6afc6b752816e35912e9/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/bb2fc9870b7fafafa8a1d639f2a6632d/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/bb2fc9870b7fafafa8a1d639f2a6632d/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/cbd0213618e2938cb6419dfa0bc01f9b/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/cbd0213618e2938cb6419dfa0bc01f9b/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/1482c37934e6dc45902ead46b3cc3173/transformed/lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/1482c37934e6dc45902ead46b3cc3173/transformed/lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/3babc4b5fe5d1daeadc1f240e1a37ec5/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/3babc4b5fe5d1daeadc1f240e1a37ec5/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/33195a986f18bdf4278f7bd9339f21b6/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/33195a986f18bdf4278f7bd9339f21b6/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/d1bbb4e9ccdd5542240af38044310dc9/transformed/lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/d1bbb4e9ccdd5542240af38044310dc9/transformed/lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/gochan/.gradle/caches/8.9/transforms/6b424aea71632035d57252217d69677e/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/gochan/.gradle/caches/8.9/transforms/6b424aea71632035d57252217d69677e/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/gochan/.gradle/caches/8.9/transforms/4c779b1b1158b7dad4be190627614f48/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/gochan/.gradle/caches/8.9/transforms/4c779b1b1158b7dad4be190627614f48/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/gochan/.gradle/caches/8.9/transforms/5d9357d13ed446948506ebafa99027e4/transformed/appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/gochan/.gradle/caches/8.9/transforms/5d9357d13ed446948506ebafa99027e4/transformed/appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/23253992b3ebf723c6932bdcbe7449ee/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/23253992b3ebf723c6932bdcbe7449ee/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/gochan/.gradle/caches/8.9/transforms/f8a3e4b33d9ba3c13e6afd7e2bd48ae1/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/gochan/.gradle/caches/8.9/transforms/f8a3e4b33d9ba3c13e6afd7e2bd48ae1/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/gochan/.gradle/caches/8.9/transforms/74dc60a5aa0c548ce6e1538f4562d331/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/gochan/.gradle/caches/8.9/transforms/74dc60a5aa0c548ce6e1538f4562d331/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/gochan/.gradle/caches/8.9/transforms/9eb95532a89212ff5509611400986af2/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/gochan/.gradle/caches/8.9/transforms/9eb95532a89212ff5509611400986af2/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/gochan/.gradle/caches/8.9/transforms/f23adfb7c8f6bf04f3cc215a0975e02f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/gochan/.gradle/caches/8.9/transforms/f23adfb7c8f6bf04f3cc215a0975e02f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/124979da24cfe69971b56bd6e0684072/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/124979da24cfe69971b56bd6e0684072/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/d9cedb90864142c022a59f25ab781217/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/d9cedb90864142c022a59f25ab781217/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/gochan/.gradle/caches/8.9/transforms/f3365d23e15a22accb1221d361376280/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/gochan/.gradle/caches/8.9/transforms/f3365d23e15a22accb1221d361376280/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/d6c72d00a1642c68d983fa250456f2b4/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/d6c72d00a1642c68d983fa250456f2b4/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/cf6e0312ef707550ac3852d78146b5c6/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/cf6e0312ef707550ac3852d78146b5c6/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/79d0389923280b0561ca15fd5d4bad40/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/79d0389923280b0561ca15fd5d4bad40/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/gochan/.gradle/caches/8.9/transforms/7d38f1bd204a8e3412e7f904d4bb7ded/transformed/core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/gochan/.gradle/caches/8.9/transforms/7d38f1bd204a8e3412e7f904d4bb7ded/transformed/core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/15a0c6e2d4d5f90c9f8dbd30ec44722d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/15a0c6e2d4d5f90c9f8dbd30ec44722d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/a4b85f685755ffa221bc796c081e7a59/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/a4b85f685755ffa221bc796c081e7a59/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /Users/gochan/.gradle/caches/8.9/transforms/8ac382218ddce136bd9ddcab071aba59/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /Users/gochan/.gradle/caches/8.9/transforms/8ac382218ddce136bd9ddcab071aba59/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/c99d8c48335077aca98ce0790781065d/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/c99d8c48335077aca98ce0790781065d/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/92bc856b63de21ddeba8cf493e3f2576/transformed/lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/92bc856b63de21ddeba8cf493e3f2576/transformed/lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/7edf9e78f64bce2a29932ce9e0e4197a/transformed/lifecycle-viewmodel-compose-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/7edf9e78f64bce2a29932ce9e0e4197a/transformed/lifecycle-viewmodel-compose-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/47a94f35395a0acbfa123aebf08fea25/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/47a94f35395a0acbfa123aebf08fea25/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/1edbe4b15b3782a42f9d55c688f57f70/transformed/lifecycle-runtime-compose-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/1edbe4b15b3782a42f9d55c688f57f70/transformed/lifecycle-runtime-compose-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/498a95a936372d49cae7b1be6555dec7/transformed/ui-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/498a95a936372d49cae7b1be6555dec7/transformed/ui-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/6c21696be012730459b834c02bfa35e3/transformed/ui-tooling-preview-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/6c21696be012730459b834c02bfa35e3/transformed/ui-tooling-preview-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/528c92f5cf92315d0b87dbd24cc27e17/transformed/ui-tooling-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/528c92f5cf92315d0b87dbd24cc27e17/transformed/ui-tooling-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.7.2] /Users/gochan/.gradle/caches/8.9/transforms/6f5669549777a57960675ef16e46b880/transformed/activity-compose-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.7.2] /Users/gochan/.gradle/caches/8.9/transforms/6f5669549777a57960675ef16e46b880/transformed/activity-compose-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/bfc30fcedd668a8ff9ac7e6ba5c05400/transformed/runtime-saveable-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/bfc30fcedd668a8ff9ac7e6ba5c05400/transformed/runtime-saveable-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/04e557f09daae8cb43cf096e9cbbc3e4/transformed/runtime-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/04e557f09daae8cb43cf096e9cbbc3e4/transformed/runtime-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/20ff0c8f55e058b6a279b577c48dcc50/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/20ff0c8f55e058b6a279b577c48dcc50/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/aade09a0df48ad12da249cf105195212/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/aade09a0df48ad12da249cf105195212/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/2dd127b086b73b08351685662ebae0c8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/2dd127b086b73b08351685662ebae0c8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/gochan/.gradle/caches/8.9/transforms/c2533b6ee7446263c1d9019350a6f70d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/gochan/.gradle/caches/8.9/transforms/c2533b6ee7446263c1d9019350a6f70d/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/gochan/.gradle/caches/8.9/transforms/949897da886562c4a6c6db4a8f21561f/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/gochan/.gradle/caches/8.9/transforms/949897da886562c4a6c6db4a8f21561f/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/gochan/.gradle/caches/8.9/transforms/b1fb247cfce38549b282768c4586affa/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/gochan/.gradle/caches/8.9/transforms/b1fb247cfce38549b282768c4586affa/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/843eb454e8784b4e67fc0708ff267b85/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/843eb454e8784b4e67fc0708ff267b85/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/98de651bd93cda22ccd7aa9e5666f04e/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/98de651bd93cda22ccd7aa9e5666f04e/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/d5578d3c180ebfd54f792249350fae90/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/d5578d3c180ebfd54f792249350fae90/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/8148b26ff3cc11b4240ff1281d3554e8/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/8148b26ff3cc11b4240ff1281d3554e8/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/0c0191c4c932bc92c8e22338537f909d/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/gochan/.gradle/caches/8.9/transforms/0c0191c4c932bc92c8e22338537f909d/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/951085eb2293d3a878dbb203364988eb/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/951085eb2293d3a878dbb203364988eb/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/gochan/Documents/GitRepo/Android-app/PayPalSimpleApp/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:FraudProtection] /Users/gochan/Documents/GitRepo/Android-app/PPMobileSDKv1.8.0/paypal-android/FraudProtection/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-79
+MERGED from [:CorePayments] /Users/gochan/Documents/GitRepo/Android-app/PPMobileSDKv1.8.0/paypal-android/CorePayments/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-79
+MERGED from [:CorePayments] /Users/gochan/Documents/GitRepo/Android-app/PPMobileSDKv1.8.0/paypal-android/CorePayments/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from [:FraudProtection] /Users/gochan/Documents/GitRepo/Android-app/PPMobileSDKv1.8.0/paypal-android/FraudProtection/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:22-76
+queries
+ADDED from [com.braintreepayments.api:browser-switch:2.3.1] /Users/gochan/.gradle/caches/8.9/transforms/11e3bdb7dc4f36815a235314d108540c/transformed/browser-switch-2.3.1/AndroidManifest.xml:9:5-20:15
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
+ADDED from [com.braintreepayments.api:browser-switch:2.3.1] /Users/gochan/.gradle/caches/8.9/transforms/11e3bdb7dc4f36815a235314d108540c/transformed/browser-switch-2.3.1/AndroidManifest.xml:10:9-16:18
+intent#action:name:android.support.customtabs.action.CustomTabsService
+ADDED from [com.braintreepayments.api:browser-switch:2.3.1] /Users/gochan/.gradle/caches/8.9/transforms/11e3bdb7dc4f36815a235314d108540c/transformed/browser-switch-2.3.1/AndroidManifest.xml:17:9-19:18
+action#android.support.customtabs.action.CustomTabsService
+ADDED from [com.braintreepayments.api:browser-switch:2.3.1] /Users/gochan/.gradle/caches/8.9/transforms/11e3bdb7dc4f36815a235314d108540c/transformed/browser-switch-2.3.1/AndroidManifest.xml:18:13-90
+	android:name
+		ADDED from [com.braintreepayments.api:browser-switch:2.3.1] /Users/gochan/.gradle/caches/8.9/transforms/11e3bdb7dc4f36815a235314d108540c/transformed/browser-switch-2.3.1/AndroidManifest.xml:18:21-87
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/65de48f6411e6afc6b752816e35912e9/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/bb2fc9870b7fafafa8a1d639f2a6632d/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/bb2fc9870b7fafafa8a1d639f2a6632d/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/2dd127b086b73b08351685662ebae0c8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/2dd127b086b73b08351685662ebae0c8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/gochan/.gradle/caches/8.9/transforms/b1fb247cfce38549b282768c4586affa/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/gochan/.gradle/caches/8.9/transforms/b1fb247cfce38549b282768c4586affa/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/65de48f6411e6afc6b752816e35912e9/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/65de48f6411e6afc6b752816e35912e9/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/65de48f6411e6afc6b752816e35912e9/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/65de48f6411e6afc6b752816e35912e9/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/65de48f6411e6afc6b752816e35912e9/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/65de48f6411e6afc6b752816e35912e9/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/65de48f6411e6afc6b752816e35912e9/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/bb2fc9870b7fafafa8a1d639f2a6632d/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/bb2fc9870b7fafafa8a1d639f2a6632d/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/gochan/.gradle/caches/8.9/transforms/bb2fc9870b7fafafa8a1d639f2a6632d/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/gochan/.gradle/caches/8.9/transforms/8ac382218ddce136bd9ddcab071aba59/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/gochan/.gradle/caches/8.9/transforms/8ac382218ddce136bd9ddcab071aba59/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/gochan/.gradle/caches/8.9/transforms/8ac382218ddce136bd9ddcab071aba59/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.example.paypal.simpleapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/gochan/.gradle/caches/8.9/transforms/8ac382218ddce136bd9ddcab071aba59/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/gochan/.gradle/caches/8.9/transforms/8ac382218ddce136bd9ddcab071aba59/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/gochan/.gradle/caches/8.9/transforms/8ac382218ddce136bd9ddcab071aba59/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/gochan/.gradle/caches/8.9/transforms/8ac382218ddce136bd9ddcab071aba59/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/gochan/.gradle/caches/8.9/transforms/8ac382218ddce136bd9ddcab071aba59/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.paypal.simpleapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/gochan/.gradle/caches/8.9/transforms/8ac382218ddce136bd9ddcab071aba59/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/gochan/.gradle/caches/8.9/transforms/8ac382218ddce136bd9ddcab071aba59/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/528c92f5cf92315d0b87dbd24cc27e17/transformed/ui-tooling-1.4.3/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/528c92f5cf92315d0b87dbd24cc27e17/transformed/ui-tooling-1.4.3/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling:1.4.3] /Users/gochan/.gradle/caches/8.9/transforms/528c92f5cf92315d0b87dbd24cc27e17/transformed/ui-tooling-1.4.3/AndroidManifest.xml:24:13-71
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/2dd127b086b73b08351685662ebae0c8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/2dd127b086b73b08351685662ebae0c8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/2dd127b086b73b08351685662ebae0c8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/2dd127b086b73b08351685662ebae0c8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/2dd127b086b73b08351685662ebae0c8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/2dd127b086b73b08351685662ebae0c8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/2dd127b086b73b08351685662ebae0c8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/2dd127b086b73b08351685662ebae0c8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/2dd127b086b73b08351685662ebae0c8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/2dd127b086b73b08351685662ebae0c8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/2dd127b086b73b08351685662ebae0c8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/2dd127b086b73b08351685662ebae0c8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/2dd127b086b73b08351685662ebae0c8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/2dd127b086b73b08351685662ebae0c8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/2dd127b086b73b08351685662ebae0c8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/2dd127b086b73b08351685662ebae0c8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/2dd127b086b73b08351685662ebae0c8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/2dd127b086b73b08351685662ebae0c8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/2dd127b086b73b08351685662ebae0c8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/2dd127b086b73b08351685662ebae0c8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/gochan/.gradle/caches/8.9/transforms/2dd127b086b73b08351685662ebae0c8/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
