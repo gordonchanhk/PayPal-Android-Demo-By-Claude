@@ -1,6 +1,7 @@
 package com.example.paypal.simpleapp
 
 import android.content.Context
+import android.content.Intent
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.runtime.getValue
@@ -54,6 +55,7 @@ class PaymentViewModel : ViewModel(), PayPalWebCheckoutListener {
         private set
 
     fun startCheckout(activity: AppCompatActivity) {
+        Log.d("D", "PaymentViewModel::startCheckout()")
         viewModelScope.launch {
             state = PaymentState.Loading
             try {
@@ -86,6 +88,13 @@ class PaymentViewModel : ViewModel(), PayPalWebCheckoutListener {
                 val coreConfig = CoreConfig(clientId)
                 payPalDataCollector = PayPalDataCollector(coreConfig)
 
+                // Clear stale deep link data from any previous browser switch
+                activity.intent = Intent()
+
+                // Clean up previous client's observer to prevent it from stealing browser switch results
+                Log.d(TAG, "PaymentViewModel: removeObservers if paypalClient exists")
+                paypalClient?.removeObservers()
+
                 paypalClient = PayPalWebCheckoutClient(activity, coreConfig, URL_SCHEME)
                 paypalClient?.listener = this@PaymentViewModel
 
@@ -98,6 +107,7 @@ class PaymentViewModel : ViewModel(), PayPalWebCheckoutListener {
     }
 
     fun captureOrder(context: Context) {
+        Log.d("D", "PaymentViewModel::captureOrder()")
         val orderId = currentOrderId
         if (orderId == null) {
             state = PaymentState.Error("No order to capture")
@@ -128,6 +138,7 @@ class PaymentViewModel : ViewModel(), PayPalWebCheckoutListener {
     }
 
     fun resetState() {
+        Log.d("D", "PaymentViewModel::resetState()")
         state = PaymentState.Idle
         currentOrderId = null
     }
@@ -135,6 +146,7 @@ class PaymentViewModel : ViewModel(), PayPalWebCheckoutListener {
     // PayPalWebCheckoutListener callbacks
 
     override fun onPayPalWebSuccess(result: PayPalWebCheckoutResult) {
+        Log.d("D", "PaymentViewModel::onPayPalWebSuccess()")
         Log.d(TAG, "PayPal approved: orderId=${result.orderId}, payerId=${result.payerId}")
         state = PaymentState.OrderApproved(
             orderId = result.orderId ?: currentOrderId ?: "",
@@ -143,17 +155,21 @@ class PaymentViewModel : ViewModel(), PayPalWebCheckoutListener {
     }
 
     override fun onPayPalWebFailure(error: PayPalSDKError) {
+        Log.d("D", "PaymentViewModel::onPayPalWebFailure()")
         Log.e(TAG, "PayPal error: ${error.errorDescription}")
         state = PaymentState.Error(error.errorDescription)
     }
 
     override fun onPayPalWebCanceled() {
+        Log.d("D", "PaymentViewModel::onPayPalWebCanceled()")
         Log.d(TAG, "PayPal checkout canceled by user")
         state = PaymentState.Error("Checkout canceled by user")
     }
 
     override fun onCleared() {
+        Log.d("D", "PaymentViewModel::onCleared()")
         super.onCleared()
+        Log.d(TAG, "PaymentViewModel: removeObservers if paypalClient exists")
         paypalClient?.removeObservers()
     }
 }

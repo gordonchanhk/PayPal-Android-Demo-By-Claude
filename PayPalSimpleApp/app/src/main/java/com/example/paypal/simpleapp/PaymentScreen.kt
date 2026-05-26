@@ -1,5 +1,6 @@
 package com.example.paypal.simpleapp
 
+import android.util.Log
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -29,6 +30,7 @@ import androidx.appcompat.app.AppCompatActivity
 fun PaymentScreen(viewModel: PaymentViewModel, onBack: () -> Unit) {
     val context = LocalContext.current
     val activity = context as AppCompatActivity
+    Log.d("D", "PaymentScreen()")
 
     Box(modifier = Modifier.fillMaxSize()) {
         TextButton(

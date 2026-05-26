@@ -2,6 +2,7 @@ package com.example.paypal.simpleapp
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.material3.MaterialTheme
@@ -20,6 +21,7 @@ enum class Screen {
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        Log.d("D", "MainActivity::oNCreate()")
         super.onCreate(savedInstanceState)
         setContent {
             MaterialTheme {
@@ -58,6 +60,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onNewIntent(newIntent: Intent) {
         super.onNewIntent(newIntent)
+        Log.d("D", "MainActivity::onNewIntent()")
         intent = newIntent
     }
 }
